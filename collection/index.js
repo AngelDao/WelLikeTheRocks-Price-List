@@ -16,10 +16,6 @@ const main = async (fromLast) => {
     );
   }
 
-  if (process.env.PRIVATE_KEY) {
-    wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
-  }
-
   let rocks;
   if (provider) {
     try {
@@ -27,14 +23,6 @@ const main = async (fromLast) => {
       rocks = await getRocks(provider, fromLast);
       await update(rocks);
       console.log("updated");
-      // here is the time series data
-      // const data = timeSeries(stats);
-
-      // TVL time series
-      // console.log(data[0].data);
-
-      // Unique Adresses time series
-      // console.log(data[1].data);
 
       console.log("scraper ended");
     } catch (err) {
