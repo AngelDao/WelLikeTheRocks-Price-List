@@ -1,9 +1,7 @@
 require("dotenv").config();
 const { ethers } = require("ethers");
-// const { getEvents } = require("./utils/getEvents");
 const { getRocks } = require("./utils/getRocks");
 const { update } = require("./google");
-// const { timeSeries } = require("./services/EventPoints");
 
 const main = async (fromLast) => {
   let provider;

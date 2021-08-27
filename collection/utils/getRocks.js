@@ -2,7 +2,6 @@ require("dotenv").config();
 const { ethers } = require("ethers");
 const { EtherRock } = require("./addresses");
 const RockABI = require("../abis/Rock.json");
-const { queryEvents } = require("./helpers");
 
 const format = (rocks) => {
   return rocks.map((e) => [e.rock_number, e.price, e.owner, e.forSale]);
