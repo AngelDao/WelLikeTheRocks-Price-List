@@ -1,0 +1,8 @@
+{
+  "name": "WelLikeTheRocks-Order-Book",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AngelDao/WelLikeTheRocks-Order-Book.git",
+  "author": "DanWizard <tortortorented@gmail.com>",
+  "license": "MIT"
+}
