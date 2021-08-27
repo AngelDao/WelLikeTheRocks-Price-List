@@ -1,4 +1,8 @@
-# Sale List Scraper for We Like The Rocks
+# Sale List Scraper for [We Like The Rocks](https://twitter.com/weliketherocks)
+
+**current list**:
+
+https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vS5JK1xAJJuycgjycwhTVZZiJ1njQfrJ-tfz2y2jhNsDM3F_coj4o5lQbLwTeTE825FQVJty2JFJZzx/pubhtml
 
 This code is for hooking up scraped list to a google sheet using a google service worker.
 
