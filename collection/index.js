@@ -30,7 +30,6 @@ const main = async (fromLast) => {
   } else {
     console.log("no provider");
   }
-  return stats;
 };
 
 main();
